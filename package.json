@@ -1,0 +1,36 @@
+{
+  "name": "tiktok-x-to-whatsapp-stickers",
+  "version": "1.0.0",
+  "description": "Convierte videos de TikTok y X (Twitter) a stickers animados oficiales para WhatsApp (< 500 KB) y extrae stickers de comentarios de TikTok.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "cli": "node cli.js",
+    "dev": "node src/server.js"
+  },
+  "keywords": [
+    "tiktok",
+    "stickers",
+    "whatsapp",
+    "animated-stickers",
+    "twitter",
+    "x",
+    "tiktok-stickers-downloader",
+    "ffmpeg",
+    "yt-dlp",
+    "baileys"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "adm-zip": "^0.6.1",
+    "express": "^5.2.1",
+    "pino": "^10.4.0",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0",
+    "wa-sticker-formatter": "^4.4.4",
+    "ws": "^8.22.0"
+  }
+}

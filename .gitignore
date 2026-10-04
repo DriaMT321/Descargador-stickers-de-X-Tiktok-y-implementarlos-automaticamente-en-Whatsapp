@@ -1,0 +1,24 @@
+# Dependencias
+node_modules/
+
+# Sesión y credenciales privadas de WhatsApp (NUNCA subir a repositorios públicos)
+whatsapp_session/
+
+# Archivos temporales y descargas generadas
+temp/
+stickers/
+
+# Variables de entorno
+.env
+*.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Archivos del sistema y del editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+scratch/
